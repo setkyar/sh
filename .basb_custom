@@ -1,0 +1,13 @@
+#For this repo.
+b=~/code/sh
+
+alias b=${b}
+
+alias message=${b}/message.sh
+alias music=${b}/music.sh
+alias php-syntax-check=${b}/php-syntax-check.sh
+alias db-clean=${b}/db-clean.sh
+
+#Laravel Staff
+alias artisan='php artisan'
+alias serve='php artisan serve'

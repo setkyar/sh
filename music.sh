@@ -4,5 +4,5 @@ read answer
 if echo "$answer" | grep -iq "^/" ;then
     mplayer "$answer"/*.mp3
 else
-    echo "What the fuck! You don't understand?"
+    echo "Oh, sorry. You need to chose the directory which have '.mp3' files!"
 fi
