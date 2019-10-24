@@ -16,3 +16,4 @@ Don't forget to make `chmod +x ~/code/sh/*.sh` executable.
 	music.sh   				for playing music from terminal
 	php-syntax-check.sh		for checking PHP syntax
 	db-clean.sh				for cleaning up exported .sql to be able to import. Especially on JSON fields.
+	ch-downloader.sh		for downloading the courses from coursehuner. (Need to pass 3 arguments, course path, course's lesson count, and API Version v1, v2, v3, etc...)
