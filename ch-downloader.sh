@@ -11,5 +11,5 @@ for i in $(eval echo {1..$2});
 do
     echo "Downloading Now!";
 
-    wget "https://${3}.coursehunter.net/${1}/lesson${i}.mp4" -P ${1}
+    wget -c "https://${3}.coursehunter.net/${1}/lesson${i}.mp4" -P ${1}
 done
